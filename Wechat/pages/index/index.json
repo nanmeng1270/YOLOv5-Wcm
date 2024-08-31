@@ -1,0 +1,6 @@
+{
+  "usingComponents": {},
+  "backgroundColor": "#000000",
+  "navigationBarTitleText":"田间小麦检测系统",
+  "navigationBarTextStyle": "black"
+}

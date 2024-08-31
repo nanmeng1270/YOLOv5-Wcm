@@ -1,0 +1,19 @@
+<image style="width: 750rpx; height: 605rpx; display: inline-block; box-sizing: border-box; "src="{{path}}" mode='aspectFit'></image>
+
+<view style="display: flex;margin-top:50rpx ;">
+      <view style="background-color: rgb(253, 24, 184); width: 750rpx; height: -108rpx; display: block; box-sizing: border-box; background-color: rgb(255, 193, 37)"></view>
+    </view>
+    
+
+<view class="imagesize" style="width: 750rpx; height: 354rpx; display: flex; box-sizing: border-box; background-color: rgb(238, 203, 173); position: relative; left: 2rpx; top: -59rpx">
+  <button type="primary" bindtap="detectimg" style="position: relative; left: 1rpx; top: 74rpx; width: 260rpx; height: 260rpx; display: block; box-sizing: border-box; background-color: rgb(255, 193, 37); color: rgb(255, 255, 255); border-radius: 50%; padding: 0;">
+  <image src="/images/1.png" style="width: 298rpx; height: 300rpx; object-fit: cover; display: inline-block; box-sizing: border-box; position: relative; left: -20rpx; top: -22rpx"></image>
+</button>
+</view>
+
+<view class="title11" style="width: 750rpx; height: 570rpx; display: block; box-sizing: border-box; background-color: rgb(238, 203, 173); position: relative; left: 2rpx; top: -59rpx"></view>
+<view>检测结果：
+{{resultdata}}
+</view>
+
+
